@@ -31,6 +31,7 @@ A primeira versão desse projeto foi feita durante os primórdios do meu aprendi
 A página contém 6 questões relacionada ao tema "Componentes de Computadores", tema estudado no técnico que fiz.
 
 Ao responder as perguntas, uma pontuação é calculada, e no final é apresentada uma mensagem de acordo com a pontuação do usuário.
+
 Além disso, a página também possui as funcionalidades de apagar as repostas e de limpar o resultado.
 
 <hr>

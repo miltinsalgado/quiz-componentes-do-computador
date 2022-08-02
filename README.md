@@ -10,7 +10,7 @@ Essa é uma página que apresenta um quiz sobre componentes de computadores, mat
 
 ### 🚀 Apresentação do Projeto 🚀
 
-<a target="_blank" href="https://www.linkedin.com/posts/milton-salgado-leandro_html-css-dev-activity-6943985960418197504-4S7I?utm_source=linkedin_share&utm_medium=member_desktop_web">Link para a Apresentação do Projeto<a>
+<a target="_blank" href="https://www.linkedin.com/posts/milton-salgado-leandro_html-css-js-activity-6960070012174766081-xinu?utm_source=linkedin_share&utm_medium=member_desktop_web">Link para a Apresentação do Projeto<a>
 
 <hr>
 

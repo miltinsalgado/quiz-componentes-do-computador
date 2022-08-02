@@ -7,11 +7,9 @@ body {
 }
 
 body * {
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    color: aliceblue;
+    box-sizing: border-box;
     font-family: 'Audiowide', cursive;
+    color: aliceblue;
 }
 
 h1 {
@@ -43,6 +41,8 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
+/*-----------*/
 
 /* general divs */
 

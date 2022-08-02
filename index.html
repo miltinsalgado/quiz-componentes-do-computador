@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um quiz para você se divertir e aprender sobre componentes de computadores!">
+    <meta name="author" content="Milton Salgado Leandro, João Paulo">
+    <meta name="keywords" content="hardware, computador, componentes, peças">
+    <title>Quiz - Componentes do Computador</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="images/icons/icons8-computer-96.png" rel="icon">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/functions.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>QUIZ - COMPONENTES DO COMPUTADOR</h1>
+        <div class="logo"></div> <!-- logo -->
+        <h2>Será que você sabe do que um computador é constituído?
+            <br><br>
+            Venha descobrir e aprender mais sobre os componentes de um computador com esse incrível quiz!
+        </h2>
+        <p>Responda às perguntas digitando as respostas nas caixas de texto correspondentes!</p>
+    </header> <!-- header -->
+
+    <main>
+        <section class="quiz">
+            <div class="container">
+                <h2>Questões</h2>
+                <div class="form">
+                    <form>
+                        <div class="form-wrapper">
+                            <div class="question">
+                                <div class="question-icon"></div> <!-- question-icon -->
+                                <h3>Questão 1</h3>
+                                <span>Mouse é um dispositivo de saída ou de entrada?</span>
+                                <label>Resposta: <input type="text" name="question1" /></label>
+                            </div> <!-- question -->
+
+                            <div class="component-img"></div> <!-- component-img -->
+                        </div> <!-- form-wrapper -->
+
+                        <div class="form-wrapper">
+                            <div class="question">
+                                <div class="question-icon"></div> <!-- question-icon -->
+                                <h3>Questão 2</h3>
+                                <span>Como é chamada a parte física de um computador?</span>
+                                <label>Resposta: <input type="text" name="question2" /></label>
+                            </div> <!-- question -->
+
+                            <div class="component-img"></div> <!-- component-img -->
+                        </div> <!-- form-wrapper -->
+
+                        <div class="form-wrapper">
+                            <div class="question">
+                                <div class="question-icon"></div> <!-- question-icon -->
+                                <h3>Questão 3</h3>
+                                <span>Memória RAM é uma memória primária ou secundária?</span>
+                                <label>Resposta: <input type="text" name="question3" /></label>
+                            </div> <!-- question -->
+
+                            <div class="component-img"></div> <!-- component-img -->
+                        </div> <!-- form-wrapper -->
+
+                        <div class="form-wrapper">
+                            <div class="question">
+                                <div class="question-icon"></div> <!-- question-icon -->
+                                <h3>Questão 4</h3>
+                                <span>Onde estão localizados os componentes que fazem com que todas as partes
+                                    do computador cumpram suas funções? </span>
+                                <label>Resposta: <input type="text" name="question4" /></label>
+                            </div> <!-- question -->
+
+                            <div class="component-img"></div> <!-- component-img -->
+                        </div> <!-- form-wrapper -->
+
+                        <div class="form-wrapper">
+                            <div class="question">
+                                <div class="question-icon"></div> <!-- question-icon -->
+                                <h3>Questão 5</h3>
+                                <span>Qual o nome do cérebro do computador?</span>
+                                <label>Resposta: <input type="text" name="question5" /></label>
+                            </div> <!-- question -->
+
+                            <div class="component-img"></div> <!-- component-img -->
+                        </div> <!-- form-wrapper -->
+
+                        <div class="form-wrapper">
+                            <div class="question">
+                                <div class="question-icon"></div> <!-- question-icon -->
+                                <h3>Questão 6</h3>
+                                <span>"A espinha dorsal do computador, que interliga todos os seus componentes".
+                                    <br><br>
+                                    A qual componente do computador a frase anterior se refere?</span>
+                                <label>Resposta: <input type="text" name="question6" /></label>
+                            </div> <!-- question -->
+
+                            <div class="component-img"></div> <!-- component-img -->
+                        </div> <!-- form-wrapper -->
+
+                        <div class="button">
+                            <div class="button-block">
+                                <input type="button" value="Verificar Respostas"
+                                    onclick="checkAnswers(question1.value, question2.value, question3.value, question4.value, question5.value, question6.value)">
+                            </div> <!-- button-block -->
+
+                            <div class="button-block">
+                                <input type="reset" value="Apagar Respostas" onclick="clearResult()">
+                            </div> <!-- button-block -->
+                        </div> <!-- button -->
+                    </form>
+
+                    <div class="result">
+                        <p id="result">Seu resultado será apresentado aqui!</p>
+                    </div> <!-- result -->
+                </div> <!-- form -->
+            </div> <!-- container -->
+        </section> <!-- quiz -->
+    </main> <!-- main -->
+
+    <footer>
+        <div class="container">
+            <p>©João Paulo e Milton Salgado - Turma: IN-110</p>
+        </div> <!-- container -->
+    </footer> <!-- footer -->
+</body>
+
+</html>

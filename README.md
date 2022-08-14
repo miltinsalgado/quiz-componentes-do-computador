@@ -17,7 +17,7 @@ Essa é uma página que apresenta um quiz sobre componentes de computadores, mat
 ### 🖼️ Prévia do Projeto 🖼️
 
 <div align="center">
-  <img height="400em" src="images/demo/computer_components_quiz_index.png">
+  <img height="400em" src="images/demo/demo_index.jpg">
 </div>
 
 <hr>

@@ -1,4 +1,4 @@
-## 🖥️ Computer Components Quiz 🖥️
+## 🖥️ Quiz Componentes do Computador 🖥️
 
 ### 📄 Resumo do Projeto 📄
 
